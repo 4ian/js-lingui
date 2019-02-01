@@ -134,7 +134,9 @@ Macro.prototype.tokenizeChoiceComponent = function(node) {
     format,
     name: null,
     value: undefined,
-    options: {}
+    options: {
+      offset: undefined
+    }
   }
 
   for (const attr of props) {
